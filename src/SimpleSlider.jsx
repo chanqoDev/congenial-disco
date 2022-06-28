@@ -1,14 +1,15 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import React, { Component } from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import coin from '../src/assets/logo/coin.svg';
 export default class Responsive extends Component {
   render() {
     const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
-      speed: 500,
-      slidesToShow: 4,
+      speed: 100,
+      slidesToShow: 7,
       slidesToScroll: 3,
     };
     return (
@@ -20,18 +21,13 @@ export default class Responsive extends Component {
               <div key={index}>
                 <h3>{item}</h3>
                 <p>
-                  <img
-                    src="Amazon-aws.png"
-                    alt="logo"
-                    width="100px"
-                    className="center"
-                  />
+                  <img src={coin} alt="logo" width="100px" className="center" />
                 </p>
               </div>
             );
           })}
         </Slider>
-        <div style={{ "margin-top": "30vh" }}> hello</div>
+        <div style={{ 'margin-top': '30vh' }}> hello</div>
       </div>
     );
   }

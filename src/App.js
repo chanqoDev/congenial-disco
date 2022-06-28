@@ -1,8 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
-import SimpleSlider from "./SimpleSlider";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import logo from './logo.svg';
+import './App.css';
+import SimpleSlider from './SimpleSlider';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         </p>
         <SimpleSlider />
       </header>
+      <Footer />
     </div>
   );
 }

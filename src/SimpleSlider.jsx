@@ -16,7 +16,7 @@ export default class Responsive extends Component {
       <div>
         <h2> Responsive </h2>
         <Slider {...settings}>
-          {[1, 2, 3, 4, 5, 6, 7, 8].map((item, index) => {
+          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((item, index) => {
             return (
               <div key={index}>
                 <h3>{item}</h3>

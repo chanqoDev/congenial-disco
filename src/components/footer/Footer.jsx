@@ -54,8 +54,48 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-2 col-md-4 col-sm-5 col-5"></div>
-            <div className="col-lg-3 col-md-6 col-sm-7 col-12"></div>
+            <div className="col-lg-2 col-md-4 col-sm-5 col-5">
+              <div className="widget widget-menu fl-st-3">
+                <h5 className="title-widget">Company</h5>
+                <ul>
+                  <li> SDoreemasde</li>
+                  <li>fashosa sdfasd</li>
+                  <li> latidoooo</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-7 col-12">
+              <div className="widget widget-subscribe">
+                <h5 className="title-widget">Subscribe US</h5>
+                <div className="form-subscribe">
+                  <form
+                    id="subscribe-form"
+                    action="#"
+                    method="GET"
+                    acceptCharset="utf-8"
+                    className="form-submit"
+                  >
+                    <input
+                      name="email"
+                      className="email"
+                      type="email"
+                      placeholder="info@gmail.com"
+                      required
+                    />
+                    <button id="submit" name="submit" type="submit">
+                      <i className="icon-fl-send"></i>
+                    </button>
+                  </form>
+                </div>
+                <div className="widget-social style-1 mg-t32">
+                  <ul>
+                    <li>Heloapsodif</li>
+                    <li>aslkdfa</li>
+                    <li>oiwnvvnrslkd</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
